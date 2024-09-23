@@ -17,3 +17,6 @@ Es una herramienta útil para manejar usuarios de manera sencilla y efectiva es 
 LINK DE LA API
 
 https://hoja-de-trabajo-6-nrff.onrender.com/
+
+Esta echo por mi:
+Brandon Josué Gómez García 9490-20-49
