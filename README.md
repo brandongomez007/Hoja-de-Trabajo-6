@@ -4,9 +4,13 @@ existente.
 aqui estan los comandos:
 
 POST /users: Crea un nuevo usuario.
+
 GET /users: Lista todos los usuarios.
+
 PUT /users/: Actualiza la información de un usuario existente.
+
 DELETE /users/ : Elimina un usuario.
+
 
 Es una herramienta útil para manejar usuarios de manera sencilla y efectiva es un ejemplo de como se utilizara la api en la videa real usando render.
 
