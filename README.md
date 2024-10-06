@@ -1,6 +1,9 @@
 Esta API es para gestionar usuarios en un sistema de la UMG por darnos una idea Nos permite crear, listar, actualizar y eliminar usuarios, validando que no haya duplicados de DPI si no tira un mensaje de ususario
 existente.
 
+Mejoras: Se añadió autenticación con JWT ahora, los usuarios deben iniciar sesión para obtener un token y usarlo en las rutas protegidas (GET /users, PUT /users/:dpi, DELETE /users/:dpi).
+Se creó el archivo .env para manejar el secreto de JWT y la duración del token.
+
 aqui estan los comandos:
 
 POST /users: Crea un nuevo usuario.
@@ -12,7 +15,7 @@ PUT /users/: Actualiza la información de un usuario existente.
 DELETE /users/ : Elimina un usuario.
 
 
-Es una herramienta útil para manejar usuarios de manera sencilla y efectiva es un ejemplo de como se utilizara la api en la videa real usando render.
+Es una herramienta útil para manejar usuarios de manera sencilla y efectiva es un ejemplo de como se utilizara la api en la videa real usando render y genera token.
 
 LINK DE LA API
 
