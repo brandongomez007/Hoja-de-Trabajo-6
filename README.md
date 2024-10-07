@@ -4,8 +4,13 @@ existente.
 Mejoras: Se añadió autenticación con JWT ahora, los usuarios deben iniciar sesión para obtener un token y usarlo en las rutas protegidas (GET /users, PUT /users/:dpi, DELETE /users/:dpi).
 Se creó el archivo .env para manejar el secreto de JWT y la duración del token.
 
-aqui estan los comandos:
+aqui estan los comandos para correrlo de manera local:
 
+descargar el contenido del reposistorio
+correr el comendo npm install
+crear el archivo JWT_SECRET=contraseña
+inicar el servidor 
+endpoints:
 POST /users: Crea un nuevo usuario.
 
 GET /users: Lista todos los usuarios.
@@ -19,7 +24,7 @@ Es una herramienta útil para manejar usuarios de manera sencilla y efectiva es 
 
 LINK DE LA API
 
-https://hoja-de-trabajo-6-nrff.onrender.com/
+https://hoja-de-trabajo-7-sm73.onrender.com
 
 Esta echo por mi:
 Brandon Josué Gómez García 9490-20-49
