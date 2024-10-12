@@ -7,6 +7,10 @@ DELETE /users/:dpi
 aqui estan los comandos:
 
 primero se deve inicar secion en el usuario con el metodo post: generara un token y luego se pueden realizar los siguientes comandos.
+tendremos que crear un archivos con env. con los siguintes parametros
+contrasenaa=CodiGOSecreTroxd
+teimpoo=30s
+
 
 POST /users: Crea un nuevo usuario.
 
